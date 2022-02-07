@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    width: 60px;
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.SleepCard {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.miniMain {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 1050px;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colCard {
+    width: 100px;
+    height: 60px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.player1,
+.player2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.player3,
+.player4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.player3Use,
+.player4Use {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.mMain {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player1Use,
+.player2Use {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game {
+    width: 100%;
+    height: 840px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
